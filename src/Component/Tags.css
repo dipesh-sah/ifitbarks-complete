@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .containersss {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .tags h2 {
+    color: #16314c;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .tags p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .tagimg {
+    width: 300px;
+  }
+  .tagimg img {
+    width: 296px;
+    height: 222px;
+    display: block;
+    padding: 30px;
+  }
+  .tagimg a {
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .tagimg p {
+    font-size: 18px;
+    color: #16314c;
+    margin: 10px;
+  }
+  .tagcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    clear: left;
+    clear: right;
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 30px;
+  }
+  .tagcontent h2 {
+    margin: 5px 0;
+  
+    font-family: Gilroy-Regular, sans-serif;
+    color: #6481a4;
+    font-size: 28px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: normal;
+    text-decoration: none;
+  }
+  .tagcontent p {
+    margin: 0 0 10px;
+  
+    font-family: Gilroy-Regular, sans-serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: normal;
+  }
+  .identification h2 {
+    font-size: 36px;
+    line-height: 1;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-family: inherit;
+    color: #333;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: left;
+  }
+  .identification p {
+    margin: 0 0 10px;
+  
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: normal;
+  }
+  .identification {
+    padding: 5%;
+    margin: 60px auto;
+    background-color: #eff2f5;
+  }
+  
+  .accordion-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+    }
+    .accordion-body img {
+      padding-left: 40p x;
+    }
+    .accordion h2 {
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: 0;
+      word-spacing: 0px;
+    
+      color: #6481a4;
+      text-transform: none;
+      text-decoration: none;
+      font-weight: bolder;
+      font-style: normal;
+      text-align: left;
+    }
+    .accordion div {
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: 0;
+      word-spacing: 0px;
+      font-family: inherit;
+      color: #16314c;
+      text-transform: none;
+      text-decoration: none;
+      font-weight: 400;
+      font-style: normal;
+      text-align: left;
+      outline: none;
+      border: none;
+    }
+    .accord {
+      background-color: #f4f8fc;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .backgroundimg {
+      background-image: url(./image/25096732.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      margin-top: 90px;
+      margin-bottom: 50px;
+    }
+    .guide h2 {
+      font-size: 38px;
+      line-height: 1.15;
+      letter-spacing: 0;
+      word-spacing: 0px;
+    
+      color: #16314c;
+      text-transform: none;
+      text-decoration: none;
+      font-weight: bolder;
+      font-style: normal;
+      text-align: center;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    .guide p {
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: 0;
+      word-spacing: 0px;
+      font-family: inherit;
+      color: #333;
+      text-transform: none;
+      text-decoration: none;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+    }
+    .guide {
+      width: 60%;
+      margin: 0 auto;
+    }
+    button.accordion-button {
+      
+      margin-top: 10px;
+    }
+    
+    .accordion-button:not(.collapsed) {
+      color: black;
+      background-color: white !important;
+      box-shadow: none !important;
+    }
+    
+    
+    .accordion-item:first-of-type .accordion-button {
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+    }
+    .accordion-button:focus {
+        z-index: 0 !important;
+        border-color: none !important;
+        outline: 0;
+        box-shadow: none !important;
+    }

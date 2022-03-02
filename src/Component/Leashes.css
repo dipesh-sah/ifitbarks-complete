@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .leashestitle h2 {
+    padding-top: 30px;
+    color: #16314c;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .leashestitle p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+  }
+  .leashesimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .leashesimg img {
+    width: 402px;
+    height: 268px;
+    padding: 10px;
+  }
+  .leashesimg a {
+    font-family: Gilroy-Bold, sans-serif;
+    text-transform: lowercase;
+    color: #16314c;
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .leashescontainer {
+    margin-top: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    background-color: #eff2f5;
+  }
+  .leashescontent {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      margin: 0 auto;
+      grid-gap: 50px;
+  }
+ 
+  .leashescontent h2 {
+    margin: 5px 0;
+    padding: 0;
+    font-family: Gilroy-Regular, sans-serif;
+    color: #6481a4;
+    font-size: 28px;
+    line-height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: normal;
+    text-decoration: none;
+  }
+  .leashescontainer p{
+      margin: 0 0 10px;
+      padding: 0;
+      font-family: Gilroy-Regular,sans-serif;
+      color: #333;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: normal;
+  }
+  .leashescontainer button{
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      background-color: #6481a4;
+      cursor: pointer;
+      outline: 0 !important;
+      border: none;
+      white-space: normal;
+      padding: 12px 30px 12px 30px;
+      border-radius: 4px;
+      font-size: 18px;
+      margin: 0 204px;
+      
+  }
